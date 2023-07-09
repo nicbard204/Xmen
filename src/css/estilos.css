@@ -2,7 +2,7 @@ body{
 font-family: "Oxanium", cursive;
 background: #000000;
 color: #ffffff;
-user-zoom: 67%;
+zoom: 67%;
 }
 
 body::before{
@@ -28,6 +28,7 @@ display: flex;
 align-items: center;
 gap: 30px;
 min-height: calc(100vh - 152px);
+max-height: calc(100vh - 500px);
 justify-content: center;
 }
 
@@ -36,6 +37,7 @@ display: flex;
 flex-wrap: wrap;
 gap: 30px;
 justify-content: center;
+
 }
 
 .selecao-de-personagens .personagens{
@@ -88,4 +90,5 @@ text-transform: uppercase;
     line-height: 22px;
     text-align: center;
     max-width: 500px;
+    max-height: 100px;
 }
