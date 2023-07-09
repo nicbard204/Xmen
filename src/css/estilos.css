@@ -27,8 +27,9 @@ body::before{
 display: flex;
 align-items: center;
 gap: 30px;
-min-height: calc(100vh - 152px);
-max-height: calc(100vh - 500px);
+minheight: calc(100vh - 152px);
+height: 1000px;
+width: center;
 justify-content: center;
 }
 
